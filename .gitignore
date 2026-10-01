@@ -79,3 +79,24 @@ logs/
 *.tmp
 *.temp
 *.bak
+# ============================================================
+# Local MLflow state
+# ============================================================
+mlflow.db
+mlflow.db-*
+mlruns/
+
+# ============================================================
+# Generated production data
+# ============================================================
+data/production/
+
+# Local MLflow state
+mlflow.db
+mlflow.db-*
+mlruns/
+
+# Generated production data and artifacts
+data/production/
+models/production/
+models/v4/
